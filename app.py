@@ -32,3 +32,12 @@ if scatter_button: # al hacer clic en el botón
 
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
+
+# crear una casilla de verificación
+build_boxplot = st.checkbox('Construir un boxplot')
+
+if build_boxplot: # si la casilla de verificación está seleccionada
+    st.write('Construir un box plot para el precio por año del modelo')
+    # Boxplot por años
+    fig = px.box(car_data, x="model_year", y="price")
+    st.plotly_chart(fig, use_container_width=True)
