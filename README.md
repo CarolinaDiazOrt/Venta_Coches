@@ -7,8 +7,6 @@ El objetivo principal es comprender el comportamiento del mercado de carros y an
 A través de visualizaciones interactivas, filtros y métricas estadísticas, esta aplicación permite:
 
 - Explorar las distribuciones de precio y kilometraje.
-- Comparar precios según condición y año del modelo.
-- Identificar relaciones entre diferentes características del vehículo.
-- Proporcionar una base para futuros modelos predictivos o recomendaciones.
+- Comparar precios según kilometraje y año del modelo.
 
-La aplicación está desarrollada con **Python**, utilizando librerías como **Pandas**, **Plotly** y **Streamlit** para el análisis y la visualización de datos.
+La aplicación está desarrollada con Python, utilizando librerías como Pandas, Plotly y Streamlit para el análisis y la visualización de datos, y está desplegada en una versión gratuita de Render.com para su visualización en línea.
